@@ -15,11 +15,12 @@ Misusing this code for malicious purposes is both illegal and unethical!
 - A microcontroller that supports HID functionality, such as:
   - **Arduino Leonardo**, **Arduino Micro**, ([See the list of compatible Arduino devices here](https://docs.arduino.cc/libraries/keyboard/)).
   - **ESP32** development board (only ESP32S2 and ESP32S3 support HID functionality).
-  - **Particle Photon** ([Particle Photon page](https://docs.particle.io/photon/)).
+  - **Particle Photon** (See Particle Photon here](https://docs.particle.io/photon/)).
 
 ### Software Requirements:
 - **Arduino IDE** (or alternatives like PlatformIO).
 - **Keyboard Library** (for Arduino devices).
+- **HID Keyboard Library** ([ESP32 Keyboard Library](https://github.com/espressif/arduino-esp32/tree/master)) (for ESP32 devices)
 
 ### Notes:
 - This proof of concept assumes the target machine is running Windows and has Google Chrome installed.
